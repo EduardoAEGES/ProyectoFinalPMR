@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "480455187895",
+    "project_id": "primerfirebase-1b3df",
+    "storage_bucket": "primerfirebase-1b3df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480455187895:android:35032dbbfb7a204f479c32",
+        "android_client_info": {
+          "package_name": "com.eduardo.fire1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPqOocO2dA9Sbn0cT8fVlBQGyIGtZVx9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
