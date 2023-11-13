@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Face
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -35,7 +36,7 @@ fun HomeScreen(){
         TextField(
             value = text,
             onValueChange = {newText -> text = newText},
-            label = {Text(text = "Ingrese su nombre")}
+            label = {Text(text = "Input your name")}
         )
         Button(
             onClick = { myRef.setValue("Hola $text") },
@@ -43,7 +44,7 @@ fun HomeScreen(){
             )
         {
             Icon(
-                imageVector = Icons.Default.Add,
+                imageVector = Icons.Default.Face,
                 contentDescription = "")
             Text(text = "Enviar")
         }
